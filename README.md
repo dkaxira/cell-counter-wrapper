@@ -1,4 +1,4 @@
-This is a wrapper of blood-cell-counter by dint (https://huggingface.co/spaces/dnth/blood-cell-counter).
+This is a wrapper of blood-cell-counter by dnth (https://huggingface.co/spaces/dnth/blood-cell-counter).
 
 How to use: 
 1. Clone this git repo on your computer. `git clone https://github.com/dkaxira/cell-counter-wrapper.git`
