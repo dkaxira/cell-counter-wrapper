@@ -1,0 +1,31 @@
+name: blood-cell-counter
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Python version
+  - python=3.10
+  
+  # Core dependencies for the blood cell counter
+  - pip
+  
+  # Data handling and analysis
+  - pandas>=1.5.0
+  - numpy>=1.24.0
+  
+  # Image processing (optional, for future enhancements)
+  - pillow>=9.0.0
+  - opencv>=4.6.0
+  
+  # Jupyter for interactive analysis (optional)
+  - jupyter
+  - matplotlib>=3.6.0
+  - seaborn>=0.11.0
+  
+  # Progress bars and utilities
+  - tqdm
+  
+  # Pip dependencies (not available through conda)
+  - pip:
+    - gradio_client>=0.8.0
+    - gradio>=4.0.0
