@@ -7,3 +7,5 @@ How to use:
 4. Activate the conda environment. `conda activate blood-cell-counter`
 5. Make sure all your images are in one folder.
 6. Run the script. `python blood_cell_batch.py input/file/path -o my_results.csv -c 0.1 -d 2.0`
+
+If you see this error `httpx.ReadTimeout: The read operation timed out` it means you need to visit the huggingface link in a browser to make sure it's active and then try running the script again.
